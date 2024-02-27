@@ -5,8 +5,9 @@ import pandas as pd
 def main():
     try:
         # Ruta al archivo CSV
-        url = r"A:\D\Casos_positivos_de_COVID-19_en_Colombia..csv"
-
+        url='https://drive.google.com/file/d/1AYiXqXDeOrpeLdmjjo_IUqfY04Ooy8aM/view?usp=sharing'
+        url='https://drive.google.com/uc?id=' + url.split('/')[-2]
+        
         # Cargar datos
         datos = cargar_datos(url)
 
