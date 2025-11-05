@@ -1,0 +1,2 @@
+[console_scripts]
+assembler = assembler.main:main

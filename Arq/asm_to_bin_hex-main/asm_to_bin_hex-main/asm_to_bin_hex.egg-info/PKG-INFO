@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: asm_to_bin_hex
+Version: 0.1.0
+Summary: Assembler RISC-V: de .asm a .bin y .hex
+Author: Tu Nombre
+Author-email: tuemail@example.com
+Requires-Python: >=3.7
+Requires-Dist: sly
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
